@@ -37,3 +37,6 @@ this.targetCtx.drawImage(
 https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
 
 - 파일을 Drag and Drop을 통해서 업로드 합니다.
+
+![image](https://user-images.githubusercontent.com/104504666/209523223-748336c1-d497-49b2-8280-aa809a9cbcde.png)
+
