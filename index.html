@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image-editor</title>
+  </head>
+  <link rel="stylesheet" href="./style..css" />
+  <body>
+    <main>
+      <h1>Image Editor 📸</h1>
+      <section>
+        <div class="editor_wrap">
+          <div class="drag_area">
+            Let's Drag & Drop your image
+            <input type="file" />
+          </div>
+          <div class="canvas_wrap">
+            <canvas class="canvas"></canvas>
+            <img
+              class="file_image"
+              src="./image/camping.jpg"
+              alt="sample"
+              style="width: 700px; height: 411px"
+            />
+          </div>
+        </div>
+        <!-- image, btn wrap -->
+        <div class="image_wrap"></div>
+        <div class="button_wrap">
+          <button class="btn_filp">플립</button>
+          <button class="btn_sefia">세피아</button>
+          <button class="btn_gray">그레이</button>
+          <button class="btn_save">저장</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
