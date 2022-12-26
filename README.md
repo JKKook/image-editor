@@ -28,7 +28,7 @@ this.targetCtx.drawImage(
   (w - w * 0.9) / 2,
   (h - h * 0.9) / 2,
   w * 0.9,
-  h * 0.9
+  h * 0.9,
 );
 ```
 

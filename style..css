@@ -26,6 +26,13 @@ h1 {
   text-transform: uppercase;
 }
 
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+}
+
 section {
   display: flex;
   align-items: center;
@@ -83,7 +90,7 @@ section {
   color: #4f49ec;
 }
 
-.drag_area input[type="file"] {
+.drag_area input[type='file'] {
   position: absolute;
   left: 0;
   top: 0;
@@ -101,9 +108,15 @@ section {
 }
 
 .button_wrap button {
-  width: 100px;
+  width: 80px;
   height: 40px;
-  margin: 0 5px;
-  font-size: 20px;
+  margin: 0 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.button_wrap button:hover {
+  background-color: #6c67e3;
 }

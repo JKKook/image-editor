@@ -7,32 +7,33 @@
     <title>image-editor</title>
   </head>
   <link rel="stylesheet" href="./style..css" />
+  <script src="./src/main.js" defer></script>
   <body>
     <main>
       <h1>Image Editor 📸</h1>
       <section>
         <div class="editor_wrap">
           <div class="drag_area">
-            Let's Drag & Drop your image
+            Drag & Drop your image
             <input type="file" />
           </div>
           <div class="canvas_wrap">
             <canvas class="canvas"></canvas>
             <img
-              class="file_image"
+              class="fileImage"
               src="./image/camping.jpg"
               alt="sample"
-              style="width: 700px; height: 411px"
+              style="width: 700px; height: 400px"
             />
           </div>
         </div>
         <!-- image, btn wrap -->
         <div class="image_wrap"></div>
         <div class="button_wrap">
-          <button class="btn_filp">플립</button>
-          <button class="btn_sefia">세피아</button>
-          <button class="btn_gray">그레이</button>
-          <button class="btn_save">저장</button>
+          <button type="button" class="btn_flip">플립</button>
+          <button type="button" class="btn_sepia">세피아</button>
+          <button type="button" class="btn_gray">그레이</button>
+          <button type="button" class="btn_save">저장</button>
         </div>
       </section>
     </main>
